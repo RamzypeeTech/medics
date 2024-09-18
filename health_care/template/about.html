@@ -1,0 +1,441 @@
+{% extends "base.html" %}
+{% load static %}
+
+  <body>
+
+  
+
+  
+    
+    <!-- mediic Mobile Menu  -->
+   
+
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <!--==================================================-->
+        <!-- Start mediic Breatcome Section  -->
+        <!--==================================================-->
+        {% block hero %}
+        <div class="breatcome-section d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="breatcome-content text-center">
+                  <h1 class="cursor-scale">About Us</h1>
+                  <ul class="breatcome-item">
+                    <li>
+                      <a class="cursor-scale small" href="index.html">
+                        mediic
+                      </a>
+                    </li>
+                    <li>About Us</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endblock hero %}
+        <!--==================================================-->
+        <!-- End mediic Breatcome Section  -->
+        <!--==================================================-->
+
+        <!--==================================================-->
+        <!-- Start mediic About Section  -->
+        <!--==================================================-->
+        {% block content %}
+        <div class="about-section style-3 align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="about-thumb">
+                  <img src="{% static 'assets/images/resource/about3.jpg' %}" alt="img" />
+                  <div class="counter-right-side">
+                    <div
+                      class="counter-single-box bx-1 cursor-scale"
+                      data-aos="fade-up"
+                    >
+                      <div
+                        class="odometer-wrapper counter-box-title"
+                        data-count="275"
+                      >
+                        <h1 class="odometer"></h1>
+                        <h1>K</h1>
+                      </div>
+                      <div class="counter-desc">
+                        <p>Recovered Patients</p>
+                      </div>
+                    </div>
+                    <div
+                      class="counter-single-box cursor-scale"
+                      data-aos="fade-down"
+                    >
+                      <div
+                        class="odometer-wrapper counter-box-title"
+                        data-count="90"
+                      >
+                        <h1 class="odometer"></h1>
+                        <h1>%</h1>
+                      </div>
+                      <div class="counter-desc">
+                        <p>Satisfaction Rate</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6" data-aos="fade-up-left">
+                <div class="mediic-section-title">
+                  <h4>ABOUT COMPANY</h4>
+                  <h1 class="cursor-scale">Best Health Center Since - 2007</h1>
+                  <p>
+                    "Continuously enhance medical expertise and knowledge, 
+                    independently of external stakeholders, while efficiently integrating value-driven healthcare solutions. 
+                  </p>
+                  <h4> Need Help Careing For Your Sick Loved One?</h4>
+                  <p>
+                    Gracious Helper Healthcare services are here to support you!
+                    Whether you’re looking for assistance with daily tasks, medication management, or companionship, our trained caregivers are dedicated to providing compassionate care.
+                   
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-md-6">
+                    <ul class="about-mediic-services">
+                      <li>Couple Problem Therapy</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <ul class="about-mediic-services">
+                      <li>Metal Satisfications</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="mediic-btn cursor-scale small">
+                  <a href="{% url 'service' %}"
+                    >HRIE ONE NOW!!<i class="bi bi-arrow-return-right"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="mediic-shape" data-aos="fade-up-left">
+                <img src="assets/images/resource/dctr.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--==================================================-->
+        <!-- End mediic About Section  -->
+        <!--==================================================-->
+
+        <!--==================================================-->
+        <!-- Start mediic Mission & Vission Section -->
+        <!--==================================================-->
+
+        <div class="mission-vission-section">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-4 col-md-6">
+                <div class="mission-vission-single-box" data-aos="flip-left">
+                  <div class="mission-vission-content">
+                    <div class="m_v-ssion d-flex">
+                      <div class="m_v-ssion-icon">
+                        <img
+                          src="{% static 'assets/images/resource/m-icon2.png' %}"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="m_v-ssion-title">
+                        <h3>Our Mission</h3>
+                      </div>
+                    </div>
+                    <div class="m_v-ssion-desc">
+                      <p>
+                        Professional mision capital without enterp medical users
+                        pros value added e-enable creative technology via team.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="mediic-hover-box hover-bx"></div>
+                  <div class="mediic-hover-box hover-bx2"></div>
+                  <div class="mediic-hover-box hover-bx3"></div>
+                  <div class="mediic-hover-box hover-bx4"></div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="mission-vission-single-box" data-aos="flip-up">
+                  <div class="mission-vission-content">
+                    <div class="m_v-ssion d-flex">
+                      <div class="m_v-ssion-icon">
+                        <img
+                          src="{% static 'assets/images/resource/m-icon.png' %}"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="m_v-ssion-title">
+                        <h3>Our Planning</h3>
+                      </div>
+                    </div>
+                    <div class="m_v-ssion-desc">
+                      <p>
+                        Professional mision capital without enterp medical users
+                        pros value added e-enable creative technology via team.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="mediic-hover-box hover-bx"></div>
+                  <div class="mediic-hover-box hover-bx2"></div>
+                  <div class="mediic-hover-box hover-bx3"></div>
+                  <div class="mediic-hover-box hover-bx4"></div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="mission-vission-single-box" data-aos="flip-right">
+                  <div class="mission-vission-content">
+                    <div class="m_v-ssion d-flex">
+                      <div class="m_v-ssion-icon">
+                        <img
+                          src="{% static 'assets/images/resource/m-icon2.png' %}"
+                          alt="icon"
+                        />
+                      </div>
+                      <div class="m_v-ssion-title">
+                        <h3>Our Vission</h3>
+                      </div>
+                    </div>
+                    <div class="m_v-ssion-desc">
+                      <p>
+                        Professional mision capital without enterp medical users
+                        pros value added e-enable creative technology via team.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="mediic-hover-box hover-bx"></div>
+                  <div class="mediic-hover-box hover-bx2"></div>
+                  <div class="mediic-hover-box hover-bx3"></div>
+                  <div class="mediic-hover-box hover-bx4"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--==================================================-->
+        <!-- End mediic Mission And Vission Section -->
+        <!--==================================================-->
+
+        <!--==================================================-->
+        <!-- Start mediic Testimonial Section  -->
+        <!--==================================================-->
+        <div class="testimonial-section style-2">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6" data-aos="zoom-in-right">
+                <div class="mediic-section-title">
+                  <h4>OUR TESTIMONIALS</h4>
+                  <h1 class="cursor-scale">Our Happy Patients</h1>
+                  <p>
+                    Delivering professional services without the need for enterprisee-commerce,
+                     we ensure uniquely satisfied clients through innovative technologies and a dedicated team.
+                  </p>
+                </div>
+                <div class="testi-list owl-carousel">
+                  <div class="col-lg-12">
+                    <div class="testi-single-box">
+                      <div class="testi-content-2">
+                        <div class="user-info">
+                          <div class="people-pic">
+                            <img
+                              src="{% static 'assets/images/resource/people.png' %}"
+                              alt=""
+                            />
+                          </div>
+                          <div class="user-name">
+                            <h4>Ethan Collins</h4>
+                            <h6>satisfied client</h6>
+                          </div>
+                          <div class="testi-quote2">
+                            <img
+                              src="{% static 'assets/images/resource/quote2.png' %}"
+                              alt="icon"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="testi-desc">
+                          <p>
+                            "The level of expertise and care during my treatment was exceptional.
+                            I’m so grateful to have found such a dedicated and compassionate medical team.
+                            I was treated with so much care and professionalism. 
+                            The treatment process was smooth, and I felt confident that I was in expert hands every step of the way."
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="testi-single-box">
+                      <div class="testi-content-2">
+                        <div class="user-info">
+                          <div class="people-pic">
+                            <img
+                              src="{% static 'assets/images/resource/people.png' %}"
+                              alt=""
+                            />
+                          </div>
+                          <div class="user-name">
+                            <h4>Sophia Reynolds</h4>
+                            <h6>satisfied client</h6>
+                          </div>
+                          <div class="testi-quote2">
+                            <img
+                              src="{% static 'assets/images/resource/quote2.png' %}"
+                              alt="icon"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="testi-desc">
+                          <p>
+                            "The treatment I received was world-class! I had a complicated condition, 
+                            but the team made sure I was comfortable and well-informed. I’m so thankful for the care I received.
+                            I couldn’t have asked for a better treatment experience. The medical staff were attentive, caring,
+                            and the results exceeded my expectations. Truly remarkable care."
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="testi-single-box">
+                      <div class="testi-content-2">
+                        <div class="user-info">
+                          <div class="people-pic">
+                            <img
+                              src="{% static 'assets/images/resource/people.png' %}"
+                              alt=""
+                            />
+                          </div>
+                          <div class="user-name">
+                            <h4>Liam Thompson</h4>
+                            <h6>satisfied client</h6>
+                          </div>
+                          <div class="testi-quote2">
+                            <img
+                              src="{% static 'assets/images/resource/quote2.png' %}"
+                              alt="icon"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="testi-desc">
+                          <p>
+                            "I came in feeling nervous, but the treatment I received was outstanding. 
+                            The doctors took the time to explain every detail, and the results speak for themselves.
+                            I’ve never experienced such personalized care. The treatment plan was perfectly tailored to my needs, 
+                            and the results have been amazing!"
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="testi-single-box">
+                      <div class="testi-content-2">
+                        <div class="user-info">
+                          <div class="people-pic">
+                            <img
+                              src="{% static 'assets/images/resource/people.png' %}"
+                              alt=""
+                            />
+                          </div>
+                          <div class="user-name">
+                            <h4>Olivia Bennett</h4>
+                            <h6>satisfied client</h6>
+                          </div>
+                          <div class="testi-quote2">
+                            <img
+                              src="{% static 'assets/images/resource/quote2.png' %}"
+                              alt="icon"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="testi-desc">
+                          <p>
+                            "Top-notch treatment from start to finish! The medical staff truly knows what they’re doing, 
+                            and I felt well taken care of throughout the entire process.
+                            The level of care and attention to detail in the treatment I received was amazing.
+                            They took the time to understand my health issues and created an effective treatment plan that worked wonders."
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6" data-aos="zoom-in-left">
+                <div class="testi-thumb">
+                  <img src="{% static 'assets/images/resource/testi2.jpg' %}" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--==================================================-->
+        <!-- End mediic Testimonial Section -->
+        <!--==================================================-->
+
+        <!--==================================================-->
+        <!-- Start mediic Subscribe Section -->
+        <!--==================================================-->
+
+        <div class="mediic-subscribe">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-7">
+                <div class="subscribe-content" data-aos="fade-up">
+                  <div class="subscribe-icon cursor-scale">
+                    <img src="{% static 'assets/images/resource/bag.png' %}" alt="" />
+                  </div>
+                  <div class="subscribe-title">
+                    <h1 class="cursor-scale small">
+                      Since 2007 We’re working Medical group more than 1200+
+                      Patient
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div
+                  class="mediic-button text-right cursor-scale small"
+                  data-aos="fade-down"
+                >
+                  <a href="contact.html" class="mediic-btn">
+                    <span class="mediic-btn__hover"></span>
+                    <span class="mediic-btn__hover"></span>
+                    <span class="mediic-btn__hover"></span>
+                    <span class="mediic-btn__hover"></span>
+                    <span class="mediic-btn__hover"></span>
+                    <span class="mediic-btn__hover"></span>
+                    Contact Us
+                    <i class="bi bi-arrow-return-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endblock content %}
+        <!--==================================================-->
+        <!-- End mediic Subscribe Section -->
+        <!--==================================================-->
+
+        <!--==================================================-->
+        <!-- Start mediic Footer Section -->
+        <!--==================================================-->
+      
+  </body>
+
+<!-- Mirrored from html.tf.dreamitsolution.net/mediic1/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Sep 2024 08:25:21 GMT -->
+</html>
